@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503BEF011CC488760055603B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF001CC488760055603B /* main.m */; };
+		503BEF041CC488760055603B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF031CC488760055603B /* AppDelegate.m */; };
+		503BEF071CC488760055603B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF061CC488760055603B /* ViewController.m */; };
+		503BEF0A1CC488760055603B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503BEF081CC488760055603B /* Main.storyboard */; };
+		503BEF0C1CC488760055603B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503BEF0B1CC488760055603B /* Assets.xcassets */; };
+		503BEF0F1CC488760055603B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503BEF0D1CC488760055603B /* LaunchScreen.storyboard */; };
+		503BEF1A1CC488760055603B /* Quartz2DStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF191CC488760055603B /* Quartz2DStudyTests.m */; };
+		503BEF251CC488760055603B /* Quartz2DStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF241CC488760055603B /* Quartz2DStudyUITests.m */; };
+		503BEF341CC489560055603B /* Quartz2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF331CC489560055603B /* Quartz2DView.m */; };
+		503BEF381CC4C1180055603B /* PieChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF371CC4C1180055603B /* PieChartController.m */; };
+		503BEF3B1CC4C1320055603B /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF3A1CC4C1320055603B /* PieChartView.m */; };
+		503BEF3F1CC4C5EA0055603B /* RectangleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF3E1CC4C5EA0055603B /* RectangleController.m */; };
+		503BEF421CC4C6050055603B /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF411CC4C6050055603B /* RectangleView.m */; };
+		503BEF461CC4C94D0055603B /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF451CC4C94D0055603B /* ProgressView.m */; };
+		503BEF491CC4C9630055603B /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF481CC4C9630055603B /* ProgressController.m */; };
+		503BEF4C1CC4CA130055603B /* ProgressViewSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF4B1CC4CA130055603B /* ProgressViewSecond.m */; };
+		503BEF531CC4E2500055603B /* DrawBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF521CC4E2500055603B /* DrawBoardController.m */; };
+		503BEF561CC4E26B0055603B /* DrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEF551CC4E26B0055603B /* DrawBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503BEF161CC488760055603B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503BEEF41CC488760055603B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503BEEFB1CC488760055603B;
+			remoteInfo = Quartz2DStudy;
+		};
+		503BEF211CC488760055603B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503BEEF41CC488760055603B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503BEEFB1CC488760055603B;
+			remoteInfo = Quartz2DStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		503BEEFC1CC488760055603B /* Quartz2DStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEF001CC488760055603B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		503BEF021CC488760055603B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		503BEF031CC488760055603B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		503BEF051CC488760055603B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		503BEF061CC488760055603B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		503BEF091CC488760055603B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503BEF0B1CC488760055603B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503BEF0E1CC488760055603B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503BEF101CC488760055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEF151CC488760055603B /* Quartz2DStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEF191CC488760055603B /* Quartz2DStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DStudyTests.m; sourceTree = "<group>"; };
+		503BEF1B1CC488760055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEF201CC488760055603B /* Quartz2DStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEF241CC488760055603B /* Quartz2DStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DStudyUITests.m; sourceTree = "<group>"; };
+		503BEF261CC488760055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEF321CC489560055603B /* Quartz2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DView.h; sourceTree = "<group>"; };
+		503BEF331CC489560055603B /* Quartz2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DView.m; sourceTree = "<group>"; };
+		503BEF361CC4C1180055603B /* PieChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartController.h; sourceTree = "<group>"; };
+		503BEF371CC4C1180055603B /* PieChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartController.m; sourceTree = "<group>"; };
+		503BEF391CC4C1320055603B /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		503BEF3A1CC4C1320055603B /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		503BEF3D1CC4C5EA0055603B /* RectangleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleController.h; sourceTree = "<group>"; };
+		503BEF3E1CC4C5EA0055603B /* RectangleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleController.m; sourceTree = "<group>"; };
+		503BEF401CC4C6050055603B /* RectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		503BEF411CC4C6050055603B /* RectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		503BEF441CC4C94D0055603B /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		503BEF451CC4C94D0055603B /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		503BEF471CC4C9630055603B /* ProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressController.h; sourceTree = "<group>"; };
+		503BEF481CC4C9630055603B /* ProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressController.m; sourceTree = "<group>"; };
+		503BEF4A1CC4CA130055603B /* ProgressViewSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewSecond.h; sourceTree = "<group>"; };
+		503BEF4B1CC4CA130055603B /* ProgressViewSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewSecond.m; sourceTree = "<group>"; };
+		503BEF511CC4E2500055603B /* DrawBoardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBoardController.h; sourceTree = "<group>"; };
+		503BEF521CC4E2500055603B /* DrawBoardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBoardController.m; sourceTree = "<group>"; };
+		503BEF541CC4E26B0055603B /* DrawBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBoardView.h; sourceTree = "<group>"; };
+		503BEF551CC4E26B0055603B /* DrawBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503BEEF91CC488760055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF121CC488760055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF1D1CC488760055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503BEEF31CC488760055603B = {
+			isa = PBXGroup;
+			children = (
+				503BEEFE1CC488760055603B /* Quartz2DStudy */,
+				503BEF181CC488760055603B /* Quartz2DStudyTests */,
+				503BEF231CC488760055603B /* Quartz2DStudyUITests */,
+				503BEEFD1CC488760055603B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503BEEFD1CC488760055603B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503BEEFC1CC488760055603B /* Quartz2DStudy.app */,
+				503BEF151CC488760055603B /* Quartz2DStudyTests.xctest */,
+				503BEF201CC488760055603B /* Quartz2DStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503BEEFE1CC488760055603B /* Quartz2DStudy */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF021CC488760055603B /* AppDelegate.h */,
+				503BEF031CC488760055603B /* AppDelegate.m */,
+				503BEF051CC488760055603B /* ViewController.h */,
+				503BEF061CC488760055603B /* ViewController.m */,
+				503BEF321CC489560055603B /* Quartz2DView.h */,
+				503BEF331CC489560055603B /* Quartz2DView.m */,
+				503BEF4D1CC4E1D00055603B /* 画板 */,
+				503BEF431CC4C93C0055603B /* 进度条 */,
+				503BEF3C1CC4C5CE0055603B /* 条形图 */,
+				503BEF351CC4C0F90055603B /* 饼图 */,
+				503BEF081CC488760055603B /* Main.storyboard */,
+				503BEF0B1CC488760055603B /* Assets.xcassets */,
+				503BEF0D1CC488760055603B /* LaunchScreen.storyboard */,
+				503BEF101CC488760055603B /* Info.plist */,
+				503BEEFF1CC488760055603B /* Supporting Files */,
+			);
+			path = Quartz2DStudy;
+			sourceTree = "<group>";
+		};
+		503BEEFF1CC488760055603B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF001CC488760055603B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503BEF181CC488760055603B /* Quartz2DStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF191CC488760055603B /* Quartz2DStudyTests.m */,
+				503BEF1B1CC488760055603B /* Info.plist */,
+			);
+			path = Quartz2DStudyTests;
+			sourceTree = "<group>";
+		};
+		503BEF231CC488760055603B /* Quartz2DStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF241CC488760055603B /* Quartz2DStudyUITests.m */,
+				503BEF261CC488760055603B /* Info.plist */,
+			);
+			path = Quartz2DStudyUITests;
+			sourceTree = "<group>";
+		};
+		503BEF351CC4C0F90055603B /* 饼图 */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF361CC4C1180055603B /* PieChartController.h */,
+				503BEF371CC4C1180055603B /* PieChartController.m */,
+				503BEF391CC4C1320055603B /* PieChartView.h */,
+				503BEF3A1CC4C1320055603B /* PieChartView.m */,
+			);
+			path = "饼图";
+			sourceTree = "<group>";
+		};
+		503BEF3C1CC4C5CE0055603B /* 条形图 */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF3D1CC4C5EA0055603B /* RectangleController.h */,
+				503BEF3E1CC4C5EA0055603B /* RectangleController.m */,
+				503BEF401CC4C6050055603B /* RectangleView.h */,
+				503BEF411CC4C6050055603B /* RectangleView.m */,
+			);
+			path = "条形图";
+			sourceTree = "<group>";
+		};
+		503BEF431CC4C93C0055603B /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF441CC4C94D0055603B /* ProgressView.h */,
+				503BEF451CC4C94D0055603B /* ProgressView.m */,
+				503BEF4A1CC4CA130055603B /* ProgressViewSecond.h */,
+				503BEF4B1CC4CA130055603B /* ProgressViewSecond.m */,
+				503BEF471CC4C9630055603B /* ProgressController.h */,
+				503BEF481CC4C9630055603B /* ProgressController.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+		503BEF4D1CC4E1D00055603B /* 画板 */ = {
+			isa = PBXGroup;
+			children = (
+				503BEF511CC4E2500055603B /* DrawBoardController.h */,
+				503BEF521CC4E2500055603B /* DrawBoardController.m */,
+				503BEF541CC4E26B0055603B /* DrawBoardView.h */,
+				503BEF551CC4E26B0055603B /* DrawBoardView.m */,
+			);
+			path = "画板";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503BEEFB1CC488760055603B /* Quartz2DStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEF291CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudy" */;
+			buildPhases = (
+				503BEEF81CC488760055603B /* Sources */,
+				503BEEF91CC488760055603B /* Frameworks */,
+				503BEEFA1CC488760055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quartz2DStudy;
+			productName = Quartz2DStudy;
+			productReference = 503BEEFC1CC488760055603B /* Quartz2DStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		503BEF141CC488760055603B /* Quartz2DStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEF2C1CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudyTests" */;
+			buildPhases = (
+				503BEF111CC488760055603B /* Sources */,
+				503BEF121CC488760055603B /* Frameworks */,
+				503BEF131CC488760055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503BEF171CC488760055603B /* PBXTargetDependency */,
+			);
+			name = Quartz2DStudyTests;
+			productName = Quartz2DStudyTests;
+			productReference = 503BEF151CC488760055603B /* Quartz2DStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		503BEF1F1CC488760055603B /* Quartz2DStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEF2F1CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudyUITests" */;
+			buildPhases = (
+				503BEF1C1CC488760055603B /* Sources */,
+				503BEF1D1CC488760055603B /* Frameworks */,
+				503BEF1E1CC488760055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503BEF221CC488760055603B /* PBXTargetDependency */,
+			);
+			name = Quartz2DStudyUITests;
+			productName = Quartz2DStudyUITests;
+			productReference = 503BEF201CC488760055603B /* Quartz2DStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503BEEF41CC488760055603B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xingbida;
+				TargetAttributes = {
+					503BEEFB1CC488760055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					503BEF141CC488760055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 503BEEFB1CC488760055603B;
+					};
+					503BEF1F1CC488760055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 503BEEFB1CC488760055603B;
+					};
+				};
+			};
+			buildConfigurationList = 503BEEF71CC488760055603B /* Build configuration list for PBXProject "Quartz2DStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503BEEF31CC488760055603B;
+			productRefGroup = 503BEEFD1CC488760055603B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503BEEFB1CC488760055603B /* Quartz2DStudy */,
+				503BEF141CC488760055603B /* Quartz2DStudyTests */,
+				503BEF1F1CC488760055603B /* Quartz2DStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503BEEFA1CC488760055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEF0F1CC488760055603B /* LaunchScreen.storyboard in Resources */,
+				503BEF0C1CC488760055603B /* Assets.xcassets in Resources */,
+				503BEF0A1CC488760055603B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF131CC488760055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF1E1CC488760055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503BEEF81CC488760055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEF381CC4C1180055603B /* PieChartController.m in Sources */,
+				503BEF4C1CC4CA130055603B /* ProgressViewSecond.m in Sources */,
+				503BEF071CC488760055603B /* ViewController.m in Sources */,
+				503BEF461CC4C94D0055603B /* ProgressView.m in Sources */,
+				503BEF421CC4C6050055603B /* RectangleView.m in Sources */,
+				503BEF561CC4E26B0055603B /* DrawBoardView.m in Sources */,
+				503BEF491CC4C9630055603B /* ProgressController.m in Sources */,
+				503BEF531CC4E2500055603B /* DrawBoardController.m in Sources */,
+				503BEF3B1CC4C1320055603B /* PieChartView.m in Sources */,
+				503BEF3F1CC4C5EA0055603B /* RectangleController.m in Sources */,
+				503BEF341CC489560055603B /* Quartz2DView.m in Sources */,
+				503BEF041CC488760055603B /* AppDelegate.m in Sources */,
+				503BEF011CC488760055603B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF111CC488760055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEF1A1CC488760055603B /* Quartz2DStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEF1C1CC488760055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEF251CC488760055603B /* Quartz2DStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		503BEF171CC488760055603B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503BEEFB1CC488760055603B /* Quartz2DStudy */;
+			targetProxy = 503BEF161CC488760055603B /* PBXContainerItemProxy */;
+		};
+		503BEF221CC488760055603B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503BEEFB1CC488760055603B /* Quartz2DStudy */;
+			targetProxy = 503BEF211CC488760055603B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		503BEF081CC488760055603B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503BEF091CC488760055603B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		503BEF0D1CC488760055603B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503BEF0E1CC488760055603B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503BEF271CC488760055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		503BEF281CC488760055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503BEF2A1CC488760055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz2DStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		503BEF2B1CC488760055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz2DStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		503BEF2D1CC488760055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quartz2DStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2DStudy.app/Quartz2DStudy";
+			};
+			name = Debug;
+		};
+		503BEF2E1CC488760055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quartz2DStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2DStudy.app/Quartz2DStudy";
+			};
+			name = Release;
+		};
+		503BEF301CC488760055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quartz2DStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quartz2DStudy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		503BEF311CC488760055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quartz2DStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.Quartz2DStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quartz2DStudy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503BEEF71CC488760055603B /* Build configuration list for PBXProject "Quartz2DStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEF271CC488760055603B /* Debug */,
+				503BEF281CC488760055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503BEF291CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEF2A1CC488760055603B /* Debug */,
+				503BEF2B1CC488760055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		503BEF2C1CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEF2D1CC488760055603B /* Debug */,
+				503BEF2E1CC488760055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		503BEF2F1CC488760055603B /* Build configuration list for PBXNativeTarget "Quartz2DStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEF301CC488760055603B /* Debug */,
+				503BEF311CC488760055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503BEEF41CC488760055603B /* Project object */;
+}
